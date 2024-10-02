@@ -1,0 +1,21 @@
+Task: Event Attendee Management System
+
+You are tasked with creating a basic event attendee management system. The system should allow organizers to add new attendees, manage their names, search for attendees, and list all attendees in a formatted way.
+
+Requirements:
+
+Attendee Data:
+Store the names of event attendees in an array. Each name should be a string.
+Functionalities to Implement:
+
+Add a new attendee:
+Create a function addAttendee that takes an attendee's name as input, converts it to uppercase, and adds it to the array of attendees if it's not already in the list.
+
+Search for an attendee:
+Create a function findAttendee that takes a name as input, converts the name to uppercase, and checks if it exists in the array. If it exists, display the attendee's position in the list. If not, display a message that the attendee was not found.
+
+Format and display all attendees:
+Create a function listAttendees that formats the list of attendees into a single string, separating names by commas (,) and adds "Attendees:" at the start of the list.
+
+Remove an attendee:
+Create a function removeAttendee that takes an attendee's name, converts it to uppercase, and removes the attendee from the list if they exist.
